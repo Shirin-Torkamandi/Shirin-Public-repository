@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=IM+Fell+Great+Primer+SC&family=Nanum+Myeongjo:wght@700&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-ul * {
-  list-style-type: none;
 }
 body {
   background-color: #EEF2F5;
@@ -27,6 +24,65 @@ h1 {
   box-shadow: 5px 5px 5px purple;
   border-radius: 10px;
 }
-nav {
+.nav {
+  position: sticky;
+  top: 0;
+  font-family: 'IM Fell Great Primer SC', serif;
+  display: flex;
+  justify-content: center;
+  background-color: #8e09a8;
+}
+ul * {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(255, 255, 255);
+}
+ul * :hover {
+  color: white;
+}
+#first-div {
+ display: flex;
+ align-items: center;
+}
+#butterfly-icon {
+  display: inline-block;
+  background-size: contain;
+  height: 35px;
+  margin-left: 45px;
   
 }
+#butterfly-p {
+  display: inline-block;
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  margin-left: 15px;
+  text-shadow: 1px 1px 2px pink;
+}
+#my-name {
+  display: inline-block;
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px #ea168e, 0 0 1em #612570, 0 0 0.2em hsl(198,85%,52%);
+}
+.second-div {
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+hr {
+  background-color: rgba(51, 51, 51, 0.1);
+    border: 0;
+    height: 1.5px;
+    width: 80%;
+    align-self: center;
+    margin: 15px 0;
+}
+/* .pic {
+  background-size: contain;
+} */
