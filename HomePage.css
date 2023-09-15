@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,4 +6,27 @@
 }
 ul * {
   list-style-type: none;
+}
+body {
+  background-color: #EEF2F5;
+}
+#Header {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  display: inline-block;
+  flex-basis: 400px;
+  background-color: hsl(198,85%,52%);
+  color: #EEF2F5;
+  padding: 35px 20px;
+  margin: 10px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 1px 1px 2px #ea168e, 0 0 1em #612570, 0 0 0.2em blue;
+  box-shadow: 5px 5px 5px purple;
+  border-radius: 10px;
+}
+nav {
+  
 }
