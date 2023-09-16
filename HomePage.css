@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=IM+Fell+Great+Primer+SC&family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=IM+Fell+Great+Primer+SC&family=Nanum+Myeongjo:wght@700&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,6 +28,7 @@ h1 {
   position: sticky;
   top: 0;
   font-family: 'IM Fell Great Primer SC', serif;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #8e09a8;
@@ -53,20 +54,23 @@ ul * :hover {
   background-size: contain;
   height: 35px;
   margin-left: 45px;
-  
+  margin-top: 15px;
 }
 #butterfly-p {
   display: inline-block;
   font-family: 'Nanum Myeongjo', serif;
   text-align: center;
   margin-left: 15px;
+  margin-top: 15px;
   text-shadow: 1px 1px 2px pink;
+  white-space: pre-wrap;
 }
 #my-name {
   display: inline-block;
   font-family: 'Nanum Myeongjo', serif;
   text-align: center;
   margin-left: 15px;
+  margin-top: 15px;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px #ea168e, 0 0 1em #612570, 0 0 0.2em hsl(198,85%,52%);
 }
@@ -83,6 +87,39 @@ hr {
     align-self: center;
     margin: 15px 0;
 }
-/* .pic {
+.section-1 {
+  display: flex;
+ justify-content: center;
+}
+.pic {
   background-size: contain;
-} */
+  height: 400px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.According {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+table {
+  font-family: 'Nanum Myeongjo', serif;
+  border: hsl(198,85%,52%) solid 2px;
+  border-radius: 10%;
+  height: 50vh;
+  width: 50vw;
+  text-align: center;
+  justify-content: center;
+}
+.animal-icons {
+  background-size: contain;
+  height: 20px;
+  margin-left: 6px;
+  margin-bottom: -3px;
+}
+th {
+  border-bottom: hsl(198,85%,52%) dashed 2px;
+}
