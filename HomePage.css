@@ -7,6 +7,10 @@
 body {
   background-color: #EEF2F5;
 }
+body ::selection {
+  background-color: hsla(276, 93%, 58%, 0.61);
+  color: white;
+}
 #Header {
   display: flex;
   justify-content: center;
@@ -122,4 +126,124 @@ table {
 }
 th {
   border-bottom: hsl(198,85%,52%) dashed 2px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+article p {
+  margin-top: 20px;
+  display: inline-block;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: large;
+  height: 12.5vh;
+  width: 50vw;
+}
+#Owning {
+  border-top: #ea168e solid 2px;
+  border-left: #ea168e solid 2px;
+  border-right: #ea168e solid 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 6px 6px 0px 6px;
+}
+#should {
+  border-bottom: #ea168e solid 2px;
+  border-left: #ea168e solid 2px;
+  border-right: #ea168e solid 2px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0px 6px 6px 6px;
+  margin-bottom: 30px;
+}
+#big-div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: space-around;
+  align-content: space-evenly;
+}
+.card {
+  text-align: center;
+ align-self: center;
+  display: inline-block;
+  background-color: rgba(51, 51, 51, 0.1);
+  border-radius: 10px;
+  height: 25vh;
+  width: 15vw;
+}
+.cards-photo {
+  background-size: contain;
+  height: 50px;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+#footer-pic {
+  background-size: contain;
+  width: 98.8vw;
+}
+footer section {
+  width: 98.8vw;
+  height: 65vh;
+  background-color: #36363672;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+#div-1 {
+  display: inline-block;
+  align-self: center;
+  height: 35px;
+  position: absolute;
+  top: 10vh;
+  left: 25vw;
+}
+footer section ul {
+  display: block;
+  padding: 3px 3px 0 3px;
+  position: absolute;
+  top: 10vh;
+  right: 25vw;
+}
+footer section ul h4, .li-2{
+  display: block;
+}
+footer section details {
+  position: absolute;
+  top: 24vh;
+  left: 25vw;
+}
+footer section details a {
+  text-decoration: hsla(313, 100%, 17%, 1) wavy underline;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+footer section details a:hover{
+  color: hsl(321, 52%, 75%);
+}
+footer section label {
+  position: absolute;
+  top: 37vh;
+  left: 25vw;
+  font-size: large;
+  text-shadow: 1px 1px 2px white;
+}
+footer section textarea {
+  position: absolute;
+  top: 40vh;
+  left: 25vw;
+  border-radius: 10px;
+  background-color: rgba(250, 235, 215, 0.644);
+}
+footer section textarea:active {
+  background-color: bisque;
 }
